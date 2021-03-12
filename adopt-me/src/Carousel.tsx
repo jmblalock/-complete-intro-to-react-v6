@@ -18,7 +18,7 @@ class Carousel extends Component<Props> {
       return;
     }
 
-    if (event.target.dataset.index) {
+    if (typeof event.target.dataset.index === "number") {
       this.setState({
         active: +event.target.dataset.index,
       });
