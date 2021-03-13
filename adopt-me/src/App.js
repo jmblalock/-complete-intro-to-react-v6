@@ -1,15 +1,15 @@
 import { StrictMode, useState } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./Store";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
-import ThemeContext from "./ThemeContext";
 
 const App = () => {
-  const theme = useState("darkblue");
   return (
-    <ThemeContext.Provider value={theme}>
-      <div>
+    <div>
+      <Provider store={store}>
         <Router>
           <header>
             <Link to="/">
@@ -25,8 +25,8 @@ const App = () => {
             </Route>
           </Switch>
         </Router>
-      </div>
-    </ThemeContext.Provider>
+      </Provider>
+    </div>
   );
 };
 
