@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with no pets 1`] = `
+<div
+  className="search"
+>
+  <h1>
+    No Pets Found
+  </h1>
+</div>
+`;
+
+exports[`renders correctly with some pets 1`] = `
+<div
+  className="search"
+>
+  <a
+    className="pet"
+    href="/details/1"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Luna"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/dog25.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Luna
+      </h1>
+      <h2>
+        dog - Havanese - Seattle, WA
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/2"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Charisse"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/rabbit0.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Charisse
+      </h1>
+      <h2>
+        rabbit - Havanese - Lexington, KY
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/3"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Maitilde"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/rabbit1.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Maitilde
+      </h1>
+      <h2>
+        rabbit - Lab - Dallas, TX
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/4"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Natalina"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/rabbit2.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Natalina
+      </h1>
+      <h2>
+        rabbit - Lab - Tampa, FL
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/5"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Michail"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/reptile1.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Michail
+      </h1>
+      <h2>
+        reptile - Havanese - Tuscaloosa, AL
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/6"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Gizela"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/bird2.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Gizela
+      </h1>
+      <h2>
+        bird - Havanese - Carol Stream, IL
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/7"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Laughton"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/reptile2.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Laughton
+      </h1>
+      <h2>
+        reptile - Havanese - Bridgeport, CT
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/8"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Si"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/dog0.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Si
+      </h1>
+      <h2>
+        dog - Lab - Charlotte, NC
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/9"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Lyda"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/rabbit3.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Lyda
+      </h1>
+      <h2>
+        rabbit - Lab - Springfield, IL
+      </h2>
+    </div>
+  </a>
+  <a
+    className="pet"
+    href="/details/10"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Jackquelin"
+        data-testid="thumbnail"
+        src="http://pets-images.dev-apis.com/pets/dog1.jpg"
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <h1>
+        Jackquelin
+      </h1>
+      <h2>
+        dog - Lab - Tucson, AZ
+      </h2>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`renders correctly with some pets 2`] = `
+<div
+  className="search"
+>
+  <Pet
+    animal="dog"
+    breed="Havanese"
+    id={1}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog25.jpg",
+        "http://pets-images.dev-apis.com/pets/dog26.jpg",
+        "http://pets-images.dev-apis.com/pets/dog27.jpg",
+        "http://pets-images.dev-apis.com/pets/dog28.jpg",
+        "http://pets-images.dev-apis.com/pets/dog29.jpg",
+      ]
+    }
+    location="Seattle, WA"
+    name="Luna"
+  />
+  <Pet
+    animal="rabbit"
+    breed="Havanese"
+    id={2}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/rabbit0.jpg",
+      ]
+    }
+    location="Lexington, KY"
+    name="Charisse"
+  />
+  <Pet
+    animal="rabbit"
+    breed="Lab"
+    id={3}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/rabbit1.jpg",
+      ]
+    }
+    location="Dallas, TX"
+    name="Maitilde"
+  />
+  <Pet
+    animal="rabbit"
+    breed="Lab"
+    id={4}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/rabbit2.jpg",
+      ]
+    }
+    location="Tampa, FL"
+    name="Natalina"
+  />
+  <Pet
+    animal="reptile"
+    breed="Havanese"
+    id={5}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/reptile1.jpg",
+      ]
+    }
+    location="Tuscaloosa, AL"
+    name="Michail"
+  />
+  <Pet
+    animal="bird"
+    breed="Havanese"
+    id={6}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/bird2.jpg",
+      ]
+    }
+    location="Carol Stream, IL"
+    name="Gizela"
+  />
+  <Pet
+    animal="reptile"
+    breed="Havanese"
+    id={7}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/reptile2.jpg",
+      ]
+    }
+    location="Bridgeport, CT"
+    name="Laughton"
+  />
+  <Pet
+    animal="dog"
+    breed="Lab"
+    id={8}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog0.jpg",
+      ]
+    }
+    location="Charlotte, NC"
+    name="Si"
+  />
+  <Pet
+    animal="rabbit"
+    breed="Lab"
+    id={9}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/rabbit3.jpg",
+      ]
+    }
+    location="Springfield, IL"
+    name="Lyda"
+  />
+  <Pet
+    animal="dog"
+    breed="Lab"
+    id={10}
+    images={
+      Array [
+        "http://pets-images.dev-apis.com/pets/dog1.jpg",
+      ]
+    }
+    location="Tucson, AZ"
+    name="Jackquelin"
+  />
+</div>
+`;
